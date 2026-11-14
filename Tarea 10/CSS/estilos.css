@@ -30,6 +30,7 @@
 }
 
 .fondo-flor{
+    /* background: (image) (position) / (size) (repeat) (attachment (color)*/
     background: url(../Imagenes/flor.JPG) center / contain no-repeat scroll rgba(97, 135, 232, 0.755);
     width: 300px;
     height: 600px;
