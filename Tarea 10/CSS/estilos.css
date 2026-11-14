@@ -1,0 +1,37 @@
+.fondo-vasallaje{
+    /*background-image permite agregar imagenes vomo fondo de un elemento o un contenedor
+    y tambien se pueden agregar gradientes */
+    /* El orden de como se coloca la imagen y el fondo SI afecta como se ve. Si se coloca la imagen despues del gradient o background color,
+    la imagen se vera afectada por los colores.*/
+    background: url(../Imagenes/sunrise.jpg),  linear-gradient(to top, rgb(238,130, 238, 0.5),
+     rgba(97, 165, 232, 0.755));
+
+    /* background-size(cover, contain, width(px)-height(px))
+    especifica el tamaño de la imagen de fondo */
+    background-size: contain;
+
+    /*background-reapeat(repeat, no-repeat, repeat-x, repeat-y)
+    aplica cuando la imagen es mas peque~a que su contenedor */
+    background-repeat: no-repeat;
+
+    /*background-potion(top, bottom, center, right, left)
+    establece la posicion inicial de una imagen de fondo en su contenedor*/
+    background-position: bottom;
+
+    /*background-attachment(scroll y fixed)
+    se utiliza para que la imagen quede fija en su contenedor
+    cuando un usuario se desplaza por la pagina */
+    background-attachment: fixed;
+
+    /*Propiedades generales del contenedor*/
+    width: 600px;
+    height: 1200px;
+    border: 3px solid slateblue;
+}
+
+.fondo-flor{
+    background: url(../Imagenes/flor.JPG) center / contain no-repeat scroll rgba(97, 135, 232, 0.755);
+    width: 500px;
+    height: 1200;
+    border: 4px solid lightskyblue;
+}
