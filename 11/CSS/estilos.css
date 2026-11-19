@@ -77,9 +77,9 @@ body{
 .propiedades-texto h2{
     border: 2px solid red;
     padding: 5px;
-    text-align: justify;
+    text-align: center;
     text-transform: uppercase;
-    text-shadow: 2px 2px 3px lightblue;
+    text-shadow: 2px 2px 3px violet;
     
 
 }
