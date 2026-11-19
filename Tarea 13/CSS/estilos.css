@@ -1,0 +1,47 @@
+html{
+    font-size: 10px;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-image:  linear-gradient(to top, lightskyblue, purple);
+    color: beige;
+}
+#encabezado{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border:0.2rem solid black;
+}
+#encabezado h1{  
+    text-align: center;
+    text-shadow:  0.2rem 0.2rem 0.2rem black;
+}
+.contenedor-tabla{
+    border: 0.2rem solid black;
+    width: 50%;
+    overflow-x: scroll;
+}
+.alumnos{
+    border: 0.2rem solid white;
+    border-collapse: collapse;
+    text-align: center;
+    width: 100rem
+}
+.alumnos th, .alumnos td{
+    border: 0.2rem solid silver;
+    padding: 5px;
+
+}
+.alumnos tr:nth-child(even){
+    background-color: slateblue;
+    color: aliceblue;
+}
+.alumnos tr:hover{
+    background-color: violet;
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+
+
+
