@@ -1,0 +1,113 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#encabezado{
+    background-color: black;
+    color: purple;
+    /*El relleno o padding: espacio entre el cotenido del elemento y su borde
+    se aplican los valores en sentido horario: top, right, bottom, left
+    1valor: t,r,b,l 2valor: tb, rl 3valores:t, rl, b
+    */
+
+    /* esto es lo mismo que lo de abajo
+     border-style: solid;
+    border-width: 5px ;
+    border-color: royalblue; */
+    padding: 15px 5px 150px 60px;
+    /*Margen es el espacio que hay entre un elemento HTML y el resto de los eslementos HTML a su alrededor*/
+    margin: 15px 5px;
+    /*El borde es el contorno visual alrededor del elemento html,
+    dentro de el podemos encontrar el elemento y su relleno (padding)*/
+
+    /*border: 3px solid rgb(147, 62,  212);
+    es lo mismo que lo de arriba, ahi esta abreviado
+    border-style:solid;
+    border-width: 5px;
+    border-color: rgb(147, 62, 212);
+    */
+
+    /* valores: solid, dotted, dashed, double, groove, ridge, inset, outset, hidden y none*/
+    
+    border: 10px solid rgb(125, 70, 196);
+    border-top-style: double;
+    border-left-color: pink;
+    border-right-color: rgb(77, 6, 71);
+    border-bottom-width: 15px;
+    border-radius: 15%;
+
+    /*Box shadow se puede utilizar para crear efectos de sombra alrededor del borde de un elemento, se debe
+    de especificar los valores: desplazamiento horizontal, desplazamiento vertical , radio de desefonque, 
+    radio de propagacion y el color */
+    box-shadow: 5px 5px 5px rgb(70, 152, 196);
+
+    
+}
+#encabezado h1{
+    text-decoration: underline;
+}
+.introduccion{
+    color: rgb(255, 255, 255);
+    border: 2px dotted rgb(199, 131, 197);
+    background-color: black;
+    padding: 5px;
+}
+.introduccion p{
+    padding: 5px;
+    width: 300px;
+    height: 158px;
+    border: 2px dotted gold;
+    box-sizing: border-box;
+
+}
+.introduccion span{
+    width: 300px;
+    height: 200px;
+    border: 2px dotted rgb(255, 0, 149);
+    padding: 12px;
+    margin: 20px;
+}
+
+.texto-fuente{
+    background-color: black;
+    color: white;
+    font-family: "Playfair Display", serif;
+
+}
+.propiedades-texto h2{
+    border: 2px solid red;
+    padding: 5px;
+    text-align: justify;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 3px lightblue;
+    
+
+}
+.propiedades-texto p{
+    padding: 10px;
+    text-align: justify;
+    line-height: 1.5;
+    letter-spacing: 3px;
+    word-spacing: 15px;
+    font-weight: bolder;
+
+}
+.propiedades-fuentes h2{
+    padding: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(16, 44, 108);
+    line-height: 1.5;
+    letter-spacing: 3px;
+    word-spacing: 15px;
+    font-weight: bolder;
+
+}
+.propiedades-fuentes p{
+    padding: 11px;
+    text-align: justify;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    word-spacing: 10px;
+    font-width: bolder;
+    font-style: italic;
+}
