@@ -1,0 +1,108 @@
+html{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(to bottom purple, lightblue);
+    color: black;
+}
+#encabezado{
+    border: 0.2rem solid black;
+}
+.logo{
+    border: 0.2rem solid pink;
+    width: 10%;
+    height: 10rem;
+    border-radius: 50%;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+#encabezado h1{
+    text-align: center;
+    text-shadow:  0.2rem 0.2rem 0.5rem rebeccapurple;
+}
+#navegacion ul{
+    list-style-type: none;
+    padding-left: 0%;
+}
+
+#elementos-posicionados{
+    border: 0.2rem solid lightcoral;
+    padding: 1rem;
+    position: relative;
+}
+.imagen1{
+    border: 0.5rem solid turquoise;
+    width: 30rem;
+    height: 30rem;
+    margin: 0.5rem;
+    position: absolute;
+    /* top: 1rem;
+    left: 5rem; */
+    /* bottom: 5rem;
+    right: 15rem; */
+    top: 0;
+    left: 0;
+    z-index: 3;
+    
+}
+.imagen1 img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.imagen2{
+    border: 0.5rem solid lightcoral;
+    width: 30rem;
+    height: 30rem;
+    margin: 0.5rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    
+
+
+}
+.imagen2 img{
+    width: 100%;
+    height: 100%;
+}
+.imagen3{
+    border: 0.5rem solid blue;
+    width: 30rem;
+    height: 30rem;
+    margin: 0.5rem;
+    position: absolute;
+    right: 0rem;
+    bottom: 0rem;
+    z-index: 2;
+
+
+}
+.imagen3 img{
+    width: 100%;
+    height: 100%;
+}
+.imagen4{
+    border: 0.5rem solid yellow;
+    width: 30rem;
+    height: 30rem;
+    margin: 0.5rem;
+    position: absolute;
+    left: 0rem;
+    bottom: 10rem;
+    z-index: 2;
+
+
+}
+.imagen4 img{
+    width: 100%;
+    height: 100%;
+}
